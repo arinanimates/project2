@@ -1,0 +1,43 @@
+.background    { background: rgb(52, 166, 251);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.Rain          { background: rgb(12, 29, 93); }
+.spike         { background-image: url("images/spike.png");
+                background-size: 100% 100%;
+                width: 16px;
+                height: 16px;
+              }
+.wall          { background: white;   }
+.candy         { background-image: url("images/candeh.png");
+                background-size: 100% 100%;
+                width: 16px;
+                height: 30px;
+                }
+.floater       { background: rgb(12, 29, 93);}
+
+.actor  { position: absolute;  }
+.door { background-image: url("images/door.png");
+          background-size: 100% 100%;
+          width: 16px;
+          height: 30px;
+        }
+.player { background-image: url("images/character.png");
+          background-size: 100% 100%;
+          width: 30px;
+          height: 30px;
+        }
+
+.game {
+  overflow: hidden;
+  max-width: 1000px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(196, 67, 100);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
